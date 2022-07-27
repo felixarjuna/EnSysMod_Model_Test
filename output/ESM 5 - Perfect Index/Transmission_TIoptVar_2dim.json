@@ -1,0 +1,26 @@
+[
+  {
+    "Belgium":null,
+    "France":0.0,
+    "Germany":0.9473102884,
+    "Poland":null
+  },
+  {
+    "Belgium":0.0,
+    "France":null,
+    "Germany":5.7950604221,
+    "Poland":null
+  },
+  {
+    "Belgium":0.9473102884,
+    "France":5.7950604221,
+    "Germany":null,
+    "Poland":1.7313250554
+  },
+  {
+    "Belgium":null,
+    "France":null,
+    "Germany":1.7313250554,
+    "Poland":null
+  }
+]

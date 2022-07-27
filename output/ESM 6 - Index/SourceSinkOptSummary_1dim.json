@@ -1,0 +1,74 @@
+{
+  "('My House', 'operation', '[W_el*h\/a]')":{
+    "Belgium":21194.9999999991,
+    "France":31947.1324130624,
+    "Germany":37584.8616624272,
+    "Poland":12528.28722081
+  },
+  "('My House', 'operation', '[W_el*h]')":{
+    "Belgium":339119.9999999855,
+    "France":511154.1186089984,
+    "Germany":601357.7865988349,
+    "Poland":200452.5955329598
+  },
+  "('PV', 'capacity', '[W_el]')":{
+    "Belgium":30000.0,
+    "France":12000.0,
+    "Germany":54000.0,
+    "Poland":4000.0
+  },
+  "('PV', 'operation', '[W_el*h\/a]')":{
+    "Belgium":16387.1025205748,
+    "France":24676.2709647448,
+    "Germany":29985.7276941724,
+    "Poland":10177.2137182923
+  },
+  "('PV', 'operation', '[W_el*h]')":{
+    "Belgium":262193.6403291974,
+    "France":394820.3354359173,
+    "Germany":479771.6431067585,
+    "Poland":162835.4194926773
+  },
+  "('Wind turbine', 'TAC', '[1e6 \u20ac\/a]')":{
+    "Belgium":65.9468655847,
+    "France":158.094862844,
+    "Germany":56.3579816798,
+    "Poland":0.6763763384
+  },
+  "('Wind turbine', 'capacity', '[W_el]')":{
+    "Belgium":21.8474020256,
+    "France":52.3749232979,
+    "Germany":18.6707203169,
+    "Poland":0.2240753318
+  },
+  "('Wind turbine', 'capexCap', '[1e6 \u20ac\/a]')":{
+    "Belgium":22.2520615335,
+    "France":53.3450162483,
+    "Germany":19.016541046,
+    "Poland":0.2282256748
+  },
+  "('Wind turbine', 'invest', '[1e6 \u20ac]')":{
+    "Belgium":218.4740202557,
+    "France":523.7492329786,
+    "Germany":186.7072031693,
+    "Poland":2.2407533177
+  },
+  "('Wind turbine', 'operation', '[W_el*h\/a]')":{
+    "Belgium":4423.1172415593,
+    "France":9987.837169926,
+    "Germany":7517.4035046494,
+    "Poland":100.6084823794
+  },
+  "('Wind turbine', 'operation', '[W_el*h]')":{
+    "Belgium":70769.8758649489,
+    "France":159805.3947188168,
+    "Germany":120278.4560743905,
+    "Poland":1609.7357180705
+  },
+  "('Wind turbine', 'opexCap', '[1e6 \u20ac\/a]')":{
+    "Belgium":43.6948040511,
+    "France":104.7498465957,
+    "Germany":37.3414406339,
+    "Poland":0.4481506635
+  }
+}

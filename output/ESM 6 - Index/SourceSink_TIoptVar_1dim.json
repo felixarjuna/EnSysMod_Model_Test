@@ -1,0 +1,14 @@
+{
+  "('capacityVariablesOptimum', 'PV')":{
+    "Belgium":30000.0,
+    "France":12000.0,
+    "Germany":54000.0,
+    "Poland":4000.0
+  },
+  "('capacityVariablesOptimum', 'Wind turbine')":{
+    "Belgium":21.8474020256,
+    "France":52.3749232979,
+    "Germany":18.6707203169,
+    "Poland":0.2240753318
+  }
+}
