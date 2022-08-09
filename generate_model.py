@@ -21,12 +21,13 @@ def main():
     ACCESS_TOKEN = api.post_login(base_url=BASE_URL, account=account)
 
     # 2. Create Dataset
-    name = 'ESM 5 - Perfect Index'
-    desc = 'Test model with long periods'
+    name = 'Model 4 - Energy System Model Interconnected'
+    desc = 'Test simple model'
     dataset.update({'name': name})
     dataset.update({'description': desc})
-    dataset.update({'number_of_time_steps': 35040})
-    dataset.update({'hours_per_time_step': 4})
+    dataset.update({'number_of_time_steps': 8760})
+    dataset.update({'hours_per_time_step': 1})
+    dataset.update({"cost_unit": "€"})
     dataset = api.post_create_dataset(base_url=BASE_URL, dataset=dataset, access_token=ACCESS_TOKEN)
     dataset_id = dataset.get('id')
 
@@ -48,11 +49,10 @@ def main():
     model_id = model.get('id')
 
     # 5. Optimize Model
-    filename = api.get_optimize_model(base_url=BASE_URL, output='json', model_id=model_id, access_token=ACCESS_TOKEN)
+    filename = api.get_optimize_model(base_url=BASE_URL, output='excel', model_id=model_id, access_token=ACCESS_TOKEN)
 
     # 6. Displaying the results
     # filename = "/Users/felixarjuna/sciebo/HiWi Felix/Arbeit/Lib for EnSysMod/API/EnSysMod_API_PY/output/ESM 4.xlsx"
-    filename = "./output/ESM 5 - Perfect Index.zip"
 
     plot_result(file_path=filename)
 
