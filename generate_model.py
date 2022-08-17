@@ -21,7 +21,7 @@ def main():
     ACCESS_TOKEN = api.post_login(base_url=BASE_URL, account=account)
 
     # 2. Create Dataset
-    name = 'Model 1 - Energy System Model Interconnected'
+    name = 'Model 5 - Energy System Model Interconnected with Natural Gas'
     desc = 'Test simple model'
     dataset.update({'name': name})
     dataset.update({'description': desc})
